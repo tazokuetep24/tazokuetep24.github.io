@@ -27,7 +27,7 @@
       </nav>
       <div class="header-text">
         <p>Frontend Developper</p>
-        <h1>Hi I'm Patrick <span>Tazo</span><br></h1>
+        <h1><span class="autotype"></span><br>I'm Patrick <span>Tazo</span><br></h1>
       </div>
     </div>
   </div>
@@ -225,6 +225,14 @@
           form.reset()
       })
         .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".autotype",{
+    strings: ["Hello Word"],
+      typeSpeed: 150,
+      loop: false
     })
   </script>
 </body>
