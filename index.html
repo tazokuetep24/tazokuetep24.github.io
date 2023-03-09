@@ -26,8 +26,7 @@
         <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
       </nav>
       <div class="header-text">
-        <p>Frontend Developper</p>
-        <h1><span class="autotype"></span><br>I'm Patrick <span>Tazo</span><br></h1>
+        <p ><h1 class="autotype"></h1></p>
       </div>
     </div>
   </div>
@@ -42,11 +41,11 @@
         </div>
         <div class="about-col-2">
           <h1 class="sub-title">About me</h1>
-          <p>Currently studying computer engineering, passionate about
-            programming and learning new technologies, I ventured in obtaining
-            a certification in frontend web development, which I have now completed.
-            Iam currently learning how to work on the backend with frameworks like Django. 
-            I love constantly learning new things, and looking for new ways to grow.
+          <p>I am a 20 year old man, originating from Cameroon and currently living and studying
+            in Germany. I would describe my self as smart, curious, organised, disciplined and most importantly having a good sense of humour.
+            I am particulary fascninated about the field of computer science and engineering, and 
+            would love to learn as much about them as humanly possible. Well, that's it for my brief introduction,
+            and I hope we can meet in person, so you can get your own impression of me. Thanks for reading!  
           </p>
 
           <div class="tab-titles">
@@ -56,20 +55,24 @@
           </div>
           <div class="tab-contents active-tab" id="skills">
             <ul>
-              <li><span>HTML <i class="fa-brands fa-html5"></i> CSS <i class="fa-brands fa-css3-alt"></i> and Javascript <i class="fa-brands fa-square-js"></i></span><br>Designing Web/App Interfaces</li>
-              <li><span>Python <i class="fa-brands fa-python"></i></span><br>Web App Development</li>
-              <li><span>React <i class="fa-brands fa-react"></i></span><br>Building IOS/Android apps</li>
+              <li><span>HTML <i class="fa-brands fa-html5"></i> CSS <i class="fa-brands fa-css3-alt"></i> and Javascript <i class="fa-brands fa-square-js"></i></span><br>I have a fundamental understanding of how HTML5 and CSS3 can be used to build web pages, and how Javascript can be harnessed to bring about dynamism and interactivity.<br><a target="_blank" href="https://coursera.org/share/b33c8f842033d68e959f2d104b6dbc61">Certificate</a> </li>
+              <li><span>Python <i class="fa-brands fa-python"></i></span><br>I have a basic understanding of this very powerful programming language and am constantly trying to learn more. As of now, I am trying to explore the Backend using Python and Django, a framework that uses it.<br><a target="_blank" href="https://coursera.org/share/6274892becd68762f7dc06b85c6cecce">Certificate</a></li>
+              <li><span>React <i class="fa-brands fa-react"></i></span><br>The popular framework is one with which I have worked, and still am working with. Concepts such as Components, state management, and Redux are just a few of the many advantages this framework offers when working with webpages, which I am already familiar with.<br><a target="_blank" href="https://coursera.org/share/a68ebd3bb293cfb75f83834964fe8478">Certificate</a>  </li>
             </ul>
           </div>
           <div class="tab-contents" id="experience">
             <p>Although I have not yet put my knowledge to use in a real work environment, I have worked on some projects to help me get a taste of what it
-              feel like. You can check out some of the projects I have worked on below.</p>
+              feels like. You can check out some of the projects I have worked on below.</p>
           </div>
           <div class="tab-contents" id="education">
             <ul>
-              <li><span>2023 - Jetzt</span><br>IBM Full Stack Developer Professional Certificate<br/><a href="https://coursera.org/share/b33c8f842033d68e959f2d104b6dbc61" download class="btn btn2">Download CV</a></li>
-              <li><span>2022 - Jetzt</span><br>Bachelorstudium : Technische Informatik</li>
-              <li><span>2020</span><br>Abitur</li>
+              <li><span>2023 - Jetzt</span><br><i class="fa-solid fa-graduation-cap"></i>IBM Full Stack Developer Professional Certificate :<br><br>
+                I am currently quenching my thirst for knowledge by following a course on full stack web development on <a href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer">coursera</a>.
+                So far, I have reached a couple of milestones, which you can check out by following the links on the skills tab.<br/></li>
+              <li><span>2022 - Jetzt</span><br><i class="fa-solid fa-graduation-cap"></i>Undergraduate Course : Computer engineering<br><br>I equally  recently started my undergraduate studies (second Semester as of now) in computer engineering at the <a href="https://www.rwth-aachen.de/go/id/a/">RWTH university in Aachen.</a></li>
+              <li><span>2021 - 2022</span><br><i class="fa-solid fa-graduation-cap"></i>German Language Course :<br><br>
+              Earned the Goethe Zertifikat C1</li>
+              <li><span>2020</span><br><i class="fa-solid fa-graduation-cap"></i>Abitur</li>
             </ul>
           </div>
         </div>
@@ -227,11 +230,13 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+
+  
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     var typed = new Typed(".autotype",{
-    strings: ["Hello Word"],
-      typeSpeed: 150,
+    strings: ["Hello <span>World</span> <br> I'm Patrick <span>Tazo</span> <br> Frontend web developer"],
+      typeSpeed: 50,
       loop: false
     })
   </script>

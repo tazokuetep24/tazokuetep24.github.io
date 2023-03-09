@@ -119,7 +119,11 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li{
   list-style: none;
-  margin: 10% 0;
+  margin: 5% 0;
+  
+}
+.tab-contents ul li a{
+  text-decoration: none;
   
 }
 .tab-contents ul li span{
