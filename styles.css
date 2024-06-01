@@ -1,0 +1,96 @@
+/* Body  */
+
+
+body{
+    width:100%;
+}
+
+/* Body end */
+
+/* Navigation Bar */
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: solid black 1px;
+    display: flex;
+    justify-content:center;
+    height: 5vh;
+
+}
+
+a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color:#2d55d8;
+    font-family:Arial, Helvetica, sans-serif ;
+    /* border: solid black 1px; */
+
+    
+}
+a:hover{
+    background-color: #2d55d8;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+
+/* Navigation Bar End */
+
+/* About  */
+#About{
+    background-color: white;
+    border: solid black 1px;
+    margin-top: 5vh;
+}
+#welcome{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 1px;
+}
+#welcome-text{
+    /* width: 50%; */
+    border: solid black 1px;
+}
+#image-container{
+    border: solid black 1px;
+}
+
+img{
+    width: 35vw;
+    height: auto;
+}
+
+/* About End */
+
+#links{
+    display: flex;
+    justify-content:center;
+
+}
+
+#Skills{
+    border: solid black 1px;
+}
+#Projects{
+    background-color: #BBE3FA;
+    border: solid black 1px;
+}
+#Contact{
+    border: solid black 1px;
+}
+#project_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project{
+    border: 1px solid black;
+    border-radius: 5px;
+}
