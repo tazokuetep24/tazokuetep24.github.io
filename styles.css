@@ -13,6 +13,7 @@ h2{
 
 body{
     width:100%;
+    margin: 0;
 }
 
 /* Body end */
@@ -73,7 +74,7 @@ a:hover{
 }
 
 img{
-    width: 35vw;
+    width: 15vh;
     height: auto;
 }
 
