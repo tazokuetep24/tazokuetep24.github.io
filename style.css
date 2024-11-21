@@ -38,13 +38,9 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-
-}
-#desktop-nav{
   position: fixed;
   top: 0px;
   left: 0px;
-  
 
 }
 
