@@ -339,8 +339,6 @@ section {
 
  article {
   display: flex;
-  /* width: 10rem; */
-  /* justify-content: space-between; */
   gap: 0.5rem;
 }
 #experience .article-container{
@@ -384,7 +382,7 @@ article .icon {
   text-align: initial;
   flex-wrap: wrap;
   gap: 2.5rem;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
 }
 
